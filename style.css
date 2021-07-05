@@ -1,0 +1,275 @@
+.head{
+      
+    background-color:white;
+    border:solid;
+     }
+  
+     .note{
+       background-color:#ffffff;
+       border: dotted;
+     }
+  
+  .grid {
+    background: darkred;
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+   }
+
+   .grid image{
+    border: 2px solid #000000;
+      border-radius: 50px;
+  }
+
+  .menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+  }
+
+  body{
+    margin:0px;
+    background-color: #f7f2f2;
+  }
+  .origami{
+
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+  }
+
+  a:link{
+    color: darkgreen;
+    text-decoration: none;
+  }
+  a:visited{
+    color: aqua;
+  }
+  
+  .camel {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+  
+  
+  .chameleon {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+  
+  .cicada {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+  
+  .panda {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 400px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+  
+  .pigeon {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+  
+  .teddy {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+
+  .youtube{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 650px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+
+  .instagram{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 650px;
+    padding: 50px;
+    background-color:#E8E5E4;
+  }
+
+  .origami:hover{
+transform:scale(1.2);
+  }
+
+  .camel{
+    position:relative;
+    color: aquamarine;
+}
+
+.camel p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+.camel:hover p{
+opacity:1;
+}
+
+.camel:hover img{
+    opacity:0.33;
+}
+.pigeon{
+  position:relative;
+  color: coral;
+}
+
+ .pigeon p{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+}
+
+.pigeon:hover p{
+opacity:1;
+}
+
+.pigeon:hover img{
+  opacity:0.33;
+}
+
+.chameleon{
+  position:relative;
+  color: green;
+}
+.chameleon p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  opacity:0;
+  }
+  
+  .chameleon:hover p{
+  opacity:1;
+  }
+  
+  .chameleon:hover img{
+    opacity:0.33;
+  }
+  
+  .teddy{
+    position:relative;
+    color: brown;
+}
+  .teddy p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    }
+    
+    .teddy:hover p{
+    opacity:1;
+    }
+    
+    .teddy:hover img{
+      opacity:0.33;
+    }
+
+    .cicada{
+      position:relative;
+      color: red;
+  }
+    .cicada p{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      opacity:0;
+      }
+      
+      .cicada:hover p{
+      opacity:1;
+      }
+      
+      .cicada:hover img{
+        opacity:0.33;
+      }
+  
+      .panda{
+        position:relative;
+        color: blue;
+    }
+      .panda p{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+        }
+        
+        .panda:hover p{
+        opacity:1;
+        }
+        
+        .panda:hover img{
+          opacity:0.33;
+        }
+    
+  
+  
+  
+
+
+
+
+
+
+
